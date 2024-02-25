@@ -51,6 +51,74 @@ The Dockerfile sets the following environment variables:
 The Dockerfile removes the `/var/cache/apk/*` directory to clean up the package cache.
 
 
+openjdk-11-11.0.22-r1
+openjdk-11-dbg-11.0.22-r1
+openjdk-11-default-jdk-11.0.22-r1
+openjdk-11-default-jvm-11.0.22-r1
+openjdk-11-demos-11.0.22-r1
+openjdk-11-doc-11.0.22-r1
+openjdk-11-jmods-11.0.22-r1
+openjdk-11-jre-11.0.22-r1
+openjdk-11-jre-base-11.0.22-r1
+openjdk-11-jre-doc-11.0.19.5-r2
+openjdk-11-jre-headless-17.0.5.8-r4
+
+openjdk-17-17.0.10-r1
+openjdk-17-dbg-17.0.10-r1
+openjdk-17-default-jdk-17.0.10-r1
+openjdk-17-default-jvm-17.0.10-r1
+openjdk-17-demos-17.0.10-r1
+openjdk-17-doc-17.0.10-r1
+openjdk-17-jmods-17.0.10-r1
+openjdk-17-jre-17.0.10-r1
+openjdk-17-jre-base-17.0.10-r1
 
 
+wolfi-base-1-r4
+wolfi-baselayout-20230201-r7
 
+
+ca-certificates-20230506-r1
+ca-certificates-bundle-20230506-r1
+
+
+zlib-1.3.1-r0
+zlib-dev-1.3.1-r0
+zlib-static-1.3.1-r0
+
+openssl-3.2.1-r0
+openssl-config-3.2.1-r0
+openssl-dev-3.2.1-r0
+
+libssl3-3.2.1-r0
+
+libcrypt1-2.38-r11
+libcrypto3-3.2.1-r0
+
+
+apk-tools-2.14.0-r1
+apk-tools-dev-2.14.0-r1
+
+busybox-1.36.1-r6
+busybox-full-1.36.1-r6
+
+---
+Wolfi base image
+```
+apk-tools               2.14.0-r1    apk   
+busybox                 1.36.1-r6    apk   
+ca-certificates-bundle  20230506-r1  apk   
+glibc                   2.38-r11     apk   
+glibc-locale-posix      2.38-r11     apk   
+gnupg                   2.2.41-r1    apk   
+ld-linux                2.38-r11     apk   
+libcrypt1               2.38-r11     apk   
+libcrypto3              3.2.1-r0     apk   
+libssl3                 3.2.1-r0     apk   
+openssl-config          3.2.1-r0     apk   
+wget                    1.21.4-r1    apk   
+wolfi-base              1-r4         apk   
+wolfi-baselayout        20230201-r7  apk   
+wolfi-keys              1-r6         apk   
+zlib                    1.3.1-r0     apk
+```e
